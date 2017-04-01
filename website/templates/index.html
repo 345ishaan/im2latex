@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+<body>
+
+ <p>{{filepath}}</p>
+ <img src="../static/uploads/{{filepath}}">
+ <!-- <img src="../static/img/portfolio/cabin.png"  alt="Cabin"> -->
+ <form action="upload" method="post" enctype="multipart/form-data">
+  <input type="file" name="file" > <br /><br />
+  <button type="submit" value="Upload"> Upload </button>
+</form>
+
+</body>
